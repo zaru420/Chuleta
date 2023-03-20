@@ -1,20 +1,116 @@
-<!DOCTYPE html>  <!-- lo primero de la pág. -->
-<html lang="es">  <!-- lo segundo, el lenguaje, en este caso en español. -->
-  <head>
-    <meta charset="utf-8">  <!-- hace falta para HTML5, lo mas compatible y codificado  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- escala pag -->
-    <meta name="keywords" content="Aprender, programación, Aaron">
-    <meta name="author" content="Aaron Vico">
-    <meta name="description" content="Curso programación">
-    <title>Página de Aaron</title>  <!-- texto pestaña navegador -->
-    <link rel="stylesheet" href="styles.css">
-    <script src="main.js"></script>
-  </head>
-
-  <body>
-
-    <footer>
-    </footer>
-    
-  </body>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>El punto, tu tienda de muñecos de ganchillo de confianza</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            body {display: flex;}
+            #logo {width: 50px;height: 50px;}
+            header {margin-top: 0; margin-left: 0;margin-bottom: 0; margin-right: 0;}
+            figure {display: flex; margin-top: 0; margin-left: 0;margin-bottom: 0; margin-right: 0;}
+            p {color:red; font-size:24px}
+            h1 {color: blueviolet;font-size: xx-large; margin-top: 100px;}
+            #titulo-mas-vendidos3 {color: chartreuse; font-size: larger;}
+            .seccion {background-color: rgb(148, 104, 73); font-size: x-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+            .titulo_producto {font-family: 'Courier New', Courier, monospace;color: darkolivegreen;}
+            .precio_producto {text-align: right;font-size: medium; font-style: italic;}
+            .negrita {font-weight: bold;}            
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <figure id="logo"><img src="./imagenes/logo.jpg" style="width: 100px; height: 100px;">El punto</figure>
+            <div id="promos"></div>
+            <div id="buscador"></div>
+            <div id="idiomas"></div>
+            <div id="carrito"></div>
+            <div id="zona-uzuarios"></div>
+        </header>
+        <nav></nav>
+        <h1>El punto, tu tienda de muñecos de ganchillo de confianza </h1> 
+        <section id="mas-vendidos" class="seccion">
+            <h2>Los más vendidos</h2>
+            <div id="top4-mas-vendidos" class="productos_top">
+                <div id="mas-vendidos1">
+                    <figure><img src="./imagenes/p1.jpg"></figure>
+                    <div id="titulo-mas-vendidos1" class="titulo_producto negrita">Muñeco más vendido   </div>
+                    <div id="descripcion-mas-vendidos1" class=""><i>Descripcion de lo que mola este muñeco</i></div>
+                    <div id="precio-mas-vendidos1" class="precio_producto">9,99€</div>
+                </div>
+                <div id="mas-vendidos2">
+                    <figure><img src="./imagenes/p2.jpg"></figure>
+                    <div id="titulo-mas-vendidos2" class="titulo_producto">Muñeco más vendido 2</div>
+                    <div id="descripcion-mas-vendidos2"><i>Descripcion de lo que mola este muñeco</i></div>
+                    <div id="precio-mas-vendidos2" class="precio_producto">9,99€</div>
+                </div>
+                <div id="mas-vendidos3">
+                    <figure><img src="./imagenes/p3.jpg"></figure>
+                    <div id="titulo-mas-vendidos3" class="titulo_producto negrita">Muñeco más vendido 3</div>
+                    <div id="descripcion-mas-vendidos3" ><i>Descripcion de lo que mola este muñeco</i></div>
+                    <div id="precio-mas-vendidos3" class="precio_producto">9,99€</div>
+                </div>
+                <div id="mas-vendidos4">
+                    <figure><img src="./imagenes/p4.jpg"></figure>
+                    <div id="titulo-mas-vendidos4" class="titulo_producto">Muñeco más vendido 1</div>
+                    <div id="descripcion-mas-vendidos4"><i>Descripcion de lo que mola este muñeco</i></div>
+                    <div id="precio-mas-vendidos4" class="precio_producto">9,99€</div>
+                </div>
+            </div>
+        </section>
+        <section id="temporada"  class="seccion">
+            <div id="temporada1">
+                <div id="temporada1">
+                    <figure><img src="./imagenes/p5.jpg"></figure>
+                    <div id="titulo-temporada1" class="titulo_producto">Muñeco temporada 1</div>
+                    <div id="descripcion-temporada1"><i>Descripcion de lo que mola este muñeco</i></div>
+                    <div id="precio-temporada1" class="precio_producto">9,99€</div>
+                </div>
+                <div id="temporada2">
+                    <figure><img src="./imagenes/p6.jpg"></figure>
+                    <div id="titulo-temporada2" class="titulo_producto">Muñeco  temporada 2</div>
+                    <div id="descripcion-temporada2"><i>Descripcion de lo que mola este muñeco</i></div>
+                    <div id="precio-temporada2" class="precio_producto">9,99€</div>
+                </div>
+                <div id="temporada3">
+                    <figure><img src="./imagenes/p7.jpg"></figure>
+                    <div id="titulo-temporada3" class="titulo_producto">Muñeco  temporada 3</div>
+                    <div id="descripcion-temporada3"><i>Descripcion de lo que mola este muñeco</i></div>
+                    <div id="precio-temporada3" class="precio_producto">9,99€</div>
+                </div>
+                <div id="temporada4">
+                    <figure><img src="./imagenes/p8.jpg"></figure>
+                    <div id="titulo-temporada4" class="titulo_producto">Muñeco  temporada 4</div>
+                    <div id="descripcion-temporada4"><i>Descripcion de lo que mola este muñeco</i></div>
+                    <div id="precio-temporada4" class="precio_producto">9,99€</div>
+                </div>
+            </div>
+        </section>
+        <aside id="opiniones">
+            <h2>Las opiniones de nuestros clientes</h2>
+            <div id="oponion1">
+                <div id="foto_opinion1"><img src="./imagenes/persona1.jpg"></div>
+                <div id="nombre-opinion1">Pepito Pérez</div>
+                <div id="estrellas-opinion1">***</div>
+                <div id="texto-opinion1">Me ha gustado el producto, entrega a tiempo</div>
+            </div>
+        </aside>
+        <footer>
+            <div>Aviso legal</div>
+            <div>blog</div>
+            <div>FAQ</div>
+            <div>Tel 966 66 66 66<br>email@elpunto.com<br>El punto<br>Avda Maisonave 2,1 03001 Alicante</div>
+        </footer>
+        <script src="" async defer></script>
+    </body>
 </html>
