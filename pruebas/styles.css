@@ -1,0 +1,43 @@
+
+.imagenesParafernalia {
+    width: 150px;
+    height: 150px;
+}
+.imagenesLogoGrande {
+    width: 100%;
+    height: 100%;
+}
+.titulos {
+    color: rebeccapurple; 
+}
+.seccion {
+    background-color: brown;
+}
+
+.precioAntiguo {
+    text-decoration:line-through;
+}
+
+.precio {
+    font-weight: bold;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
