@@ -25,4 +25,12 @@
 crea los archivos main.js, styles.css e index.html y escribir el código HTML5 de la estructura básica de una página
 
 ## Paso 1:
-  Crear los archivos desde el explorador de archivos de visual studio.
+  Crear los archivos desde el explorador de archivos de visual studio. <br>
+--------------------------------------------------------- <br>
+echo "# heroes" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/zaru420/heroes.git
+git push -u origin main
